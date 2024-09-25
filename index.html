@@ -17,7 +17,8 @@
         <nav>
             <ul class="flex justify-between items-center p-4 bg-[#F9F7F3] ">
                 <li class="">
-                    <button class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg bg-[#B4F461]">Blog</button>
+                    <button class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg bg-[#B4F461]"><a href="./blog.html"
+                            target="_blank">Blog</a></button>
                 </li>
                 <li>
                     <div class="flex justify-start items-center gap-4 p-3">
@@ -79,7 +80,26 @@
                             </p>
                             <input type="text" placeholder="Write Donation Amount"
                                 class="input input-bordered w-full max-w-xs" />
-                            <button class="btn btn-wide my-3">Donate Now</button>
+
+
+                            <!-- Open the modal using ID.showModal() method -->
+                            <button class="btn" onclick="my_modal_2.showModal()">Donate</button>
+                            <dialog id="my_modal_1" class="modal">
+                                <div class="modal-box">
+                                    <h3 class="text-3xl mb-2 font-bold flex justify-center">Congrats</h3>
+                                    <span class="flex justify-center">
+                                        <img src="./assets/coin.png" alt="">
+                                    </span>
+                                    <p class="py-4 flex justify-center">You Have Donated From Humankind</p>
+                                    <h3 class="text-lg font-bold flex justify-center">Successfully</h3>
+                                </div>
+                                <form method="dialog" class="modal-backdrop">
+                                    <button>close</button>
+                                </form>
+                            </dialog>
+
+                            <!-- end modal -->
+
                         </div>
                     </div>
                 </div>
@@ -110,7 +130,26 @@
                         </p>
                         <input type="text" placeholder="Write Donation Amount"
                             class="input input-bordered w-full max-w-xs" />
-                        <button class="btn btn-wide my-3">Donate Now</button>
+
+
+                        <!-- Open the modal using ID.showModal() method -->
+                        <button class="btn" onclick="my_modal_2.showModal()">Donate</button>
+                        <dialog id="my_modal_2" class="modal">
+                            <div class="modal-box">
+                                <h3 class="text-3xl mb-2 font-bold flex justify-center">Congrats</h3>
+                                <span class="flex justify-center">
+                                    <img src="./assets/coin.png" alt="">
+                                </span>
+                                <p class="py-4 flex justify-center">You Have Donated From Humankind</p>
+                                <h3 class="text-lg font-bold flex justify-center">Successfully</h3>
+                            </div>
+                            <form method="dialog" class="modal-backdrop">
+                                <button>close</button>
+                            </form>
+                        </dialog>
+
+                        <!-- end modal -->
+
                     </div>
                 </div>
             </div>
@@ -146,7 +185,25 @@
                             </p>
                             <input type="text" placeholder="Write Donation Amount"
                                 class="input input-bordered w-full max-w-xs" />
-                            <button class="btn btn-wide my-3">Donate Now</button>
+
+                            <!-- Open the modal using ID.showModal() method -->
+                            <button class="btn" onclick="my_modal_2.showModal()">Donate</button>
+                            <dialog id="my_modal_3" class="modal">
+                                <div class="modal-box">
+                                    <h3 class="text-3xl mb-2 font-bold flex justify-center">Congrats</h3>
+                                    <span class="flex justify-center">
+                                        <img src="./assets/coin.png" alt="">
+                                    </span>
+                                    <p class="py-4 flex justify-center">You Have Donated From Humankind</p>
+                                    <h3 class="text-lg font-bold flex justify-center">Successfully</h3>
+                                </div>
+                                <form method="dialog" class="modal-backdrop">
+                                    <button>close</button>
+                                </form>
+                            </dialog>
+
+                            <!-- end modal -->
+
                         </div>
                     </div>
                 </div>

@@ -85,7 +85,8 @@
                             <!-- Open the modal using ID.showModal() method -->
 
 
-                            <button id="donate-btn-1" class="my-3 md:m-0 btn" onclick="my_modal_2.showModal()">Donate</button>
+                            <button id="donate-btn-1" class="my-3 md:m-0 btn"
+                                onclick="my_modal_2.showModal()">Donate</button>
                             <dialog id="my_modal_1" class="modal">
                                 <div class="modal-box">
                                     <h3 class="text-3xl mb-2 font-bold flex justify-center">Congrats</h3>
@@ -121,7 +122,7 @@
                             <div>
                                 <img src="./assets/coin.png" alt="">
                             </div>
-                            <div class="text-xl font-bold">0 BDT</div>
+                            <div id="sub-balance-1" class="text-xl font-bold">0 BDT</div>
                         </div>
 
                         <h1 class="text-2xl font-bold">Donate for Flood Relief in Feni,Bangladesh</h1>
@@ -132,12 +133,13 @@
                             supporting the relief efforts and making a positive impact on the lives of those in
                             need.
                         </p>
-                        <input type="text" placeholder="Write Donation Amount"
+                        <input id="input-donate-2" type="text" placeholder="Write Donation Amount"
                             class="input input-bordered w-full max-w-xs" />
 
 
                         <!-- Open the modal using ID.showModal() method -->
-                        <button class="my-3 md:m-0 btn" onclick="my_modal_2.showModal()">Donate</button>
+                        <button id="donate-btn-2" class="my-3 md:m-0 btn"
+                            onclick="my_modal_2.showModal()">Donate</button>
                         <dialog id="my_modal_2" class="modal">
                             <div class="modal-box">
                                 <h3 class="text-3xl mb-2 font-bold flex justify-center">Congrats</h3>
@@ -174,7 +176,7 @@
                                 <div>
                                     <img src="./assets/coin.png" alt="">
                                 </div>
-                                <div class="text-xl font-bold">0 BDT</div>
+                                <div id="sub-balance-2" class="text-xl font-bold">0 BDT</div>
                             </div>
 
                             <h1 class="text-2xl font-bold">Aid for Injured in the Quota Movement</h1>
@@ -187,11 +189,11 @@
                                 aiding in their recovery. Please consider making a donation to support these brave
                                 individuals in their time of need.
                             </p>
-                            <input type="text" placeholder="Write Donation Amount"
+                            <input id="input-donate-3" type="text" placeholder="Write Donation Amount"
                                 class="input input-bordered w-full max-w-xs" />
 
                             <!-- Open the modal using ID.showModal() method -->
-                            <button class="my-3 md:m-0 btn" onclick="my_modal_2.showModal()">Donate</button>
+                            <button id="donate-btn-3" class="my-3 md:m-0 btn">Donate</button>
                             <dialog id="my_modal_3" class="modal">
                                 <div class="modal-box">
                                     <h3 class="text-3xl mb-2 font-bold flex justify-center">Congrats</h3>
@@ -246,8 +248,8 @@
         </section>
         <!-- End History Section  -->
     </main>
-<script src="./js/utilitis.js"></script>
-<script src="./js/main.js"></script>
+    <script src="./js/utilitis.js"></script>
+    <script src="./js/main.js"></script>
 </body>
 
 </html>

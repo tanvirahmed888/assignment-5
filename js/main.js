@@ -59,8 +59,8 @@ document.getElementById('donate-btn-2').addEventListener('click', function () {
         const div = document.createElement('div');
         div.innerHTML = `
          <h3 class="font-bold ">${inputValue2Num} Taka is Donated for Flood Relief in Feni,Bangladesh</h3>
-        <p> date : (Bangladesh Standard Time) </p>
-        `
+        <p> date : ${updateTime()} (Bangladesh Standard Time) </p>
+        ` 
 
         document.getElementById('history-container').appendChild(div);
 

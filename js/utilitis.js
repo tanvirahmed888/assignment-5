@@ -2,7 +2,7 @@ function showSectionById (id){
     document.getElementById('Donate-container').classList.add('hidden');
     document.getElementById('history-container').classList.add('hidden');
 
-    document.getElementById('id').classList.remove('hidden');
+    document.getElementById(id).classList.remove('hidden');
 }
 
 
@@ -14,7 +14,7 @@ function getInputFieldValueById(id){
 
 }
 
-function getbalanceTextById (id){
+function getBalanceTextById (id){
 
     const balanceText = document.getElementById(id).innerText;
     const balanceNum = parseFloat(balanceText);
